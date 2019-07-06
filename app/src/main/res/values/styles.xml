@@ -13,9 +13,9 @@
         <item name="android:textColorHint">@color/design_default_color_primary</item>
         <item name="android:textSize">20sp</item>
         <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
-        <item name="colorAccent">#ffffff</item>
+        <item name="colorAccent">#000</item>
         <item name="colorControlNormal">#ff0000</item>
-        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlActivated">#00bbff</item>
     </style>
 
 </resources>
