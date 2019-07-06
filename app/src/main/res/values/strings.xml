@@ -1,0 +1,16 @@
+<resources>
+    <string name="apePat">Apellido Paterno</string>
+    <string name="apeMat">Apellido Materno</string>
+    <string name="app_name">Deudores</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="correo">Correo</string>
+    <string name="descripcionImage">Icono aplicación</string>
+    <string name="inicioSesion">Iniciar Sesión</string>
+    <string name="user">Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="nuevoUser">Ingresar nuevo usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="recuerdame">Recuérdame</string>
+    <string name="registrar">Registrarse</string>
+    <string name="registro">Nuevo Usuario</string>
+</resources>
