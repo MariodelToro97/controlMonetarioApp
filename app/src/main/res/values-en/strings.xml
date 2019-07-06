@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Money Control</string>
+    <string name="agregarPer">Add Person</string>
+    <string name="cancelar">Cancel</string>
+    <string name="correo">E-mail</string>
+    <string name="inicioSesion">Sign in</string>
+    <string name="nombre">Name</string>
+    <string name="descripcionImage">App image</string>
+    <string name="zero">$ 0.00</string>
+    <string name="user">User</string>
+    <string name="recuerdame">Remember me</string>
+    <string name="password">Password</string>
+    <string name="cerrar">Log Out</string>
+    <string name="apeMat">Mother\'s last name</string>
+    <string name="apePat">Father\'s last name</string>
+    <string name="confContra">Confirm Password</string>
+    <string name="nuevaDeuda">New debt</string>
+    <string name="nuevoAbono">New payment</string>
+    <string name="registro">Sign up</string>
+    <string name="resumen">Summary</string>
+    <string name="registrar">Sign up</string>
+    <string name="nuevoAdeudor">New debtor</string>
+    <string name="nuevoUser">Create account</string>
+    <string name="debo">I must:</string>
+    <string name="deben">They owe me:</string>
+    <string name="reporte">View Report</string>
+</resources>

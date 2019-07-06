@@ -15,7 +15,7 @@
         <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
         <item name="colorAccent">#000</item>
         <item name="colorControlNormal">#ff0000</item>
-        <item name="colorControlActivated">#00bbff</item>
+        <item name="colorControlActivated">#000</item>
     </style>
 
 </resources>

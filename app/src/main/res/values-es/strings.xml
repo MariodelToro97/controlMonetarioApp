@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Control Monetario</string>
+    <string name="agregarPer">Agregar Persona</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="correo">Correo</string>
+    <string name="inicioSesion">Iniciar Sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcionImage">Icono aplicación</string>
+    <string name="zero">$ 0.00</string>
+    <string name="user">Usuario</string>
+    <string name="resumen">Resumen</string>
+    <string name="registro">Registro</string>
+    <string name="registrar">Registrarse</string>
+    <string name="recuerdame">Recuérdame</string>
+    <string name="password">Contraseña</string>
+    <string name="cerrar">Cerrar Sesión</string>
+    <string name="apeMat">Apellido Materno</string>
+    <string name="apePat">Apellido Paterno</string>
+    <string name="confContra">Confirmar Contraseña</string>
+    <string name="nuevaDeuda">Nueva Deuda</string>
+    <string name="nuevoAbono">Nuevo Abono</string>
+    <string name="nuevoAdeudor">Nuevo adeudor</string>
+    <string name="nuevoUser">Ingresar nuevo usuario</string>
+    <string name="debo">Yo debo:</string>
+    <string name="deben">Me deben:</string>
+    <string name="reporte">Ver Reporte</string>
+</resources>

@@ -12,8 +12,9 @@
         android:layout_width="0dp"
         android:layout_height="63dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="44dp"
-        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="?attr/colorControlHighlight"
         android:theme="@style/TextLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
@@ -21,9 +22,9 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user"
+            android:id="@+id/usuario"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:layout_margin="5dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/input1"
@@ -32,15 +33,16 @@
             android:hint="@string/user"
             android:padding="8dp"
             android:singleLine="true"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="25sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/ic_main"
         android:contentDescription="@string/descripcionImage"
@@ -57,18 +59,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        android:background="@color/common_google_signin_btn_text_dark_disabled"
 
+        android:background="?attr/colorControlHighlight"
         android:theme="@style/TextLabel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:layout_margin="5dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/input1"
@@ -78,51 +80,59 @@
             android:inputType="textPassword"
             android:padding="8dp"
             android:singleLine="true"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="25sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/sesion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="50dp"
-        android:text="@string/inicioSesion"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/button_style"
+        android:drawableStart="@drawable/ic_send_black_24dp"
         android:drawablePadding="5dp"
         android:padding="10dp"
-        android:drawableStart="@drawable/ic_send_black_24dp"
+        android:text="@string/inicioSesion"
+        android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/remember" />
 
     <Button
         android:id="@+id/registro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/button_style"
-        android:padding="10dp"
-        android:drawablePadding="5dp"
-        android:text="@string/registrar"
         android:drawableStart="@drawable/ic_input_black_24dp"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="@string/registrar"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintTop_toBottomOf="@+id/sesion" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/remember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/checador"
         android:padding="15dp"
         android:text="@string/recuerdame"
         android:textColor="#1c31ed"
-        android:textSize="18sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
