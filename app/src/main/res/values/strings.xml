@@ -1,17 +1,25 @@
 <resources>
+    <string name="actualizacion">Actualización disponible</string>
+    <string name="actualizar">Actualizar ahora</string>
+    <string name="actualizarDesp">Actualización pospuesta</string>
+    <string name="actualizarDespues">Más tarde</string>
+    <string name="actualizacionNo">Actualización no disponible</string>
     <string name="agregarPer">Agregar Persona</string>
     <string name="apePat">Apellido Paterno</string>
     <string name="apeMat">Apellido Materno</string>
     <string name="app_name">Money Control</string>
     <string name="cancelar">Cancelar</string>
+    <string name="cancelUpd">Actualización cancelada</string>
     <string name="cerrar">Cerrar Sesión</string>
     <string name="confContra">Confirmar Contraseña</string>
     <string name="correo">Correo</string>
     <string name="debo">Yo debo:</string>
+    <string name="descarga">Favor de descargar e instalar el archivo APK de la página oficial</string>
     <string name="descripcionImage">Icono aplicación</string>
     <string name="inicioSesion">Iniciar Sesión</string>
     <string name="deben">Me deben:</string>
     <string name="user">Usuario</string>
+    <string name="noInteresado">No me interesa</string>
     <string name="nombre">Nombre</string>
     <string name="nuevoAbono">Nuevo Abono</string>
     <string name="nuevaDeuda">Nueva Deuda</string>

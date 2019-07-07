@@ -3,6 +3,7 @@ package com.chomy.deudores;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -10,8 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+import com.github.javiersantos.appupdater.AppUpdater;
+import com.github.javiersantos.appupdater.enums.Display;
+import com.github.javiersantos.appupdater.enums.UpdateFrom;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -71,5 +76,45 @@ public class MainActivity extends AppCompatActivity {
         pass.setTypeface(segundoScript);
         remember.setTypeface(segundoScript);
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        actualizarApp();
+    }
+
+    private void actualizarApp () {
+        AppUpdater appUpdater = new AppUpdater(this)
+                .setDisplay(Display.DIALOG)
+                .setCancelable(false)
+                .setUpdateFrom(UpdateFrom.GITHUB)
+                .setGitHubUserAndRepo("MariodelToro97", "controlMonetarioApp")
+                .showEvery(1)
+                .setTitleOnUpdateAvailable(R.string.actualizacion)
+                .setTitleOnUpdateNotAvailable(R.string.actualizacionNo)
+                .setButtonUpdate(R.string.actualizar)
+                .setButtonUpdateClickListener(new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(MainActivity.this, R.string.descarga, Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setButtonDismiss(R.string.actualizarDespues)
+                .setButtonDismissClickListener(new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(MainActivity.this, R.string.actualizarDesp, Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setButtonDoNotShowAgain(R.string.noInteresado)
+                .setButtonDoNotShowAgainClickListener(new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(MainActivity.this, R.string.cancelUpd, Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setIcon(R.drawable.ic_system_update_black_24dp);
+        appUpdater.start();
     }
 }

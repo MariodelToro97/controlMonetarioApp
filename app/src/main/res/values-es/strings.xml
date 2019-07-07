@@ -25,4 +25,12 @@
     <string name="debo">Yo debo:</string>
     <string name="deben">Me deben:</string>
     <string name="reporte">Ver Reporte</string>
+    <string name="actualizar">Actualizar ahora</string>
+    <string name="actualizarDespues">Más tarde</string>
+    <string name="actualizacion">Actualización disponible</string>
+    <string name="actualizacionNo">Actualización no disponible</string>
+    <string name="noInteresado">No me interesa</string>
+    <string name="actualizarDesp">Actualización pospuesta</string>
+    <string name="cancelUpd">Actualización cancelada</string>
+    <string name="descarga">Favor de descargar e instalar el archivo APK de la página oficial</string>
 </resources>
