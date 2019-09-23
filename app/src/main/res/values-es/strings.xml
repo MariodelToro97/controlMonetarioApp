@@ -33,4 +33,12 @@
     <string name="actualizarDesp">Actualización pospuesta</string>
     <string name="cancelUpd">Actualización cancelada</string>
     <string name="descarga">Favor de descargar e instalar el archivo APK de la página oficial</string>
+    <string name="titProgre">¡¡ Guardando datos !!</string>
+    <string name="campoVacio">No dejar campos vacios</string>
+    <string name="tamUsr">El usuario debe contener 15 caracteres o menos</string>
+    <string name="tamCont">La longitud de la contraseña debe ser igual o mayor a 8 caracteres</string>
+    <string name="formCorreo">El formato del correo es inválido</string>
+    <string name="formNom">El campo solamente debe contener letras</string>
+    <string name="incontr">Las contraseñas no coinciden</string>
+    <string name="contAlfa">La contraseña debe contener valores alfanuméricos</string>
 </resources>

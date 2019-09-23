@@ -12,7 +12,7 @@ public class BDApp extends SQLiteOpenHelper {
             "nombre TEXT NOT NULL," +
             "apePat TEXT NOT NULL," +
             "apeMat TEXT NOT NULL," +
-            "email TEXT," +
+            "email TEXT UNIQUE," +
             "edad  INTEGER DEFAULT 18" +
             ")";
 

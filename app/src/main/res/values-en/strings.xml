@@ -33,4 +33,12 @@
     <string name="actualizarDesp">Update postponed</string>
     <string name="cancelUpd">Update canceled</string>
     <string name="descarga">Please download and install the APK file from the official website</string>
+    <string name="titProgre">Saving data !!</string>
+    <string name="campoVacio">Do not leave empty fields</string>
+    <string name="tamUsr">The user must contain 15 characters or less</string>
+    <string name="tamCont">The length of the password must be equal to or greater than 8 characters</string>
+    <string name="formCorreo">The format of the email is invalid</string>
+    <string name="formNom">The field should only contain letters</string>
+    <string name="incontr">Passwords do not match</string>
+    <string name="contAlfa">The password must contain alphanumeric values</string>
 </resources>

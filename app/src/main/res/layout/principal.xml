@@ -80,7 +80,7 @@
                 android:drawablePadding="5dp"
                 android:padding="20dp"
                 android:text="@string/nuevaDeuda"
-                android:textSize="45sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toStartOf="@+id/divider2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/agregarPersona" />
@@ -96,7 +96,7 @@
                 android:drawablePadding="5dp"
                 android:padding="20dp"
                 android:text="@string/agregarPer"
-                android:textSize="45sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toStartOf="@+id/divider2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -113,7 +113,7 @@
                 android:drawablePadding="5dp"
                 android:padding="20dp"
                 android:text="@string/nuevoAdeudor"
-                android:textSize="45sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/divider2"
                 app:layout_constraintTop_toBottomOf="@+id/nuevoAbono" />
@@ -145,7 +145,7 @@
                 android:drawablePadding="8dp"
                 android:padding="20dp"
                 android:text="@string/nuevoAbono"
-                android:textSize="45sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.51"
                 app:layout_constraintStart_toEndOf="@+id/divider2"
@@ -163,7 +163,7 @@
                 android:drawablePadding="5dp"
                 android:padding="20dp"
                 android:text="@string/reporte"
-                android:textSize="45sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toStartOf="@+id/divider2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nuevaDeuda" />

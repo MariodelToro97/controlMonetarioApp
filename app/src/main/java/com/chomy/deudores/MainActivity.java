@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     EditText user, pass;
     CheckBox remember;
 
-    private Typeface script, segundoScript;
+    Typeface script, segundoScript;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         inicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String action;
                 Intent inicio = new Intent(MainActivity.this, Principal.class);
                 startActivity(inicio);
                 Animatoo.animateShrink(MainActivity.this);

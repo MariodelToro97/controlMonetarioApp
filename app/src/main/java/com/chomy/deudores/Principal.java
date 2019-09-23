@@ -13,7 +13,7 @@ import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
 public class Principal extends AppCompatActivity {
 
-    private Typeface script, segundo;
+    Typeface script, segundo;
 
     TextView resumen, debo, deben, valorDebo, valorDeben;
     Button cerrar, nuevaPersona, nuevoAdeudor, nuevaDeuda, nuevoAbono, verReporte;
@@ -51,7 +51,7 @@ public class Principal extends AppCompatActivity {
         String fuente2 = "fuentes/Ketimun.otf";
 
         this.script = Typeface.createFromAsset(getAssets(),  fuente);
-        this.segundo = Typeface.createFromAsset(getAssets(),  fuente);
+        this.segundo = Typeface.createFromAsset(getAssets(),  fuente2);
 
         resumen.setTypeface(script);
         deben.setTypeface(script);
